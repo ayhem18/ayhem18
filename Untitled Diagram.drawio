@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T16:32:23.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="BYxQ_uRSdTboRLqgXN7y" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T16:41:34.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="dCh_v6A_8sLza8aG7lhb" version="15.4.3" type="github">
   <diagram id="kLIZPY2Z_ZGTEdxILeMI" name="Page-1">
-    <mxGraphModel dx="868" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2109" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="prTzPAkD1qdlaG6kKBDe-8" value="Restaurant/CoffeeShop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-750" width="320" height="148" as="geometry" />
+          <mxGeometry x="-210" y="-850" width="320" height="148" as="geometry" />
         </mxCell>
-        <mxCell id="prTzPAkD1qdlaG6kKBDe-9" value="the old code already tested&#xa;- CouponCreator: CouponFactory&#xa;- currentCoupon: List&lt;Coupon&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="prTzPAkD1qdlaG6kKBDe-8">
+        <mxCell id="prTzPAkD1qdlaG6kKBDe-9" value="the old code already tested&#xa;&#xa;- CouponCreator: CouponFactory&#xa;- currentCoupon: List&lt;Coupon&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="prTzPAkD1qdlaG6kKBDe-8">
           <mxGeometry y="26" width="320" height="64" as="geometry" />
         </mxCell>
         <mxCell id="prTzPAkD1qdlaG6kKBDe-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="prTzPAkD1qdlaG6kKBDe-8">
@@ -15,6 +15,18 @@
         </mxCell>
         <mxCell id="prTzPAkD1qdlaG6kKBDe-11" value="+ createCoupon(List&lt;Any&gt;) : Unit&#xa;+ deleteCoupon(Coupon / String code): Unit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="prTzPAkD1qdlaG6kKBDe-8">
           <mxGeometry y="98" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="prTzPAkD1qdlaG6kKBDe-12" value="«interface»&lt;br&gt;CouponFactory&lt;br&gt;createCoupon(List&amp;lt;Any&amp;gt;):Coupon" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-860" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="prTzPAkD1qdlaG6kKBDe-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;PercentageFactory&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;createCoupon(List&amp;lt;Any&amp;gt;):PercentageCoupon&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="-560" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="prTzPAkD1qdlaG6kKBDe-16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;FixedAmountFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;createCoupon(List&amp;lt;Any&amp;gt;):FixedAmountCoupon&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-560" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="prTzPAkD1qdlaG6kKBDe-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BuyAndGetFac&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;createCoupon(List&amp;lt;Any&amp;gt;):buyAndGetCoupon&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-560" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
