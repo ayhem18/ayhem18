@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T14:16:13.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="M4K40sZtVCpIXCgHaiO1" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-08T14:17:40.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="jHJIH3J3Y45CUqnukajt" version="15.4.3" type="github">
   <diagram id="kLIZPY2Z_ZGTEdxILeMI" name="Page-1">
     <mxGraphModel dx="1470" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -131,7 +131,7 @@
           <mxGeometry y="90" width="280" height="38" as="geometry" />
         </mxCell>
         <mxCell id="H8ev0atWPXlf6B0PMMAp-76" value="BuyAndGetCoupon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="-320" width="430" height="150" as="geometry" />
+          <mxGeometry x="1630" y="-320" width="430" height="190" as="geometry" />
         </mxCell>
         <mxCell id="H8ev0atWPXlf6B0PMMAp-77" value="Map&lt;List&lt;MenuItem&gt;,List&lt;MenuItem&gt;&gt; lists" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-76">
           <mxGeometry y="26" width="430" height="26" as="geometry" />
@@ -147,6 +147,9 @@
         </mxCell>
         <mxCell id="H8ev0atWPXlf6B0PMMAp-82" value="int fixedAmount &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-76">
           <mxGeometry y="112" width="430" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-109" value="+ setPriceAfterDiscount(List&lt;Items&gt;,Order)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-76">
+          <mxGeometry y="150" width="430" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H8ev0atWPXlf6B0PMMAp-86" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=18;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.452;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="H8ev0atWPXlf6B0PMMAp-56" target="H8ev0atWPXlf6B0PMMAp-49">
           <mxGeometry width="160" relative="1" as="geometry">
