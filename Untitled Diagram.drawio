@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T13:24:06.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="b3QXmBRNeT7-PRG3PikM" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-08T13:36:03.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="oN5QCdwSb6aIPKZprBsK" version="15.4.3" type="github">
   <diagram id="kLIZPY2Z_ZGTEdxILeMI" name="Page-1">
-    <mxGraphModel dx="1544" dy="1460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3020" dy="2225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,7 +101,7 @@
           <mxGeometry x="1030" y="-580" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="H8ev0atWPXlf6B0PMMAp-57" value="PercentageCoupon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="639" y="-320" width="270" height="130" as="geometry" />
+          <mxGeometry x="639" y="-320" width="270" height="98" as="geometry" />
         </mxCell>
         <mxCell id="H8ev0atWPXlf6B0PMMAp-58" value="+ percentage:int&#xa;+ List&lt;MenuItem&gt; eligibleItems" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-57">
           <mxGeometry y="26" width="270" height="64" as="geometry" />
@@ -109,8 +109,44 @@
         <mxCell id="H8ev0atWPXlf6B0PMMAp-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-57">
           <mxGeometry y="90" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="H8ev0atWPXlf6B0PMMAp-60" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-57">
-          <mxGeometry y="98" width="270" height="32" as="geometry" />
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-63" value="AccumulativeCoupon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="930" y="-320" width="320" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-64" value="+ maxAccumuation: Int&#xa;+ Map&lt;Int,Int&gt; accumulativeDiscounts&#xa;+ List&lt;MenuItem&gt; eligibleItems " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-63">
+          <mxGeometry y="26" width="320" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-65" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-63">
+          <mxGeometry y="100" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-71" value="FixedAmountCoupon" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="-320" width="280" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-73" value="+ List&lt;MenuItem&gt; eligibleItems" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-71">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-74" value="+ amout : Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-71">
+          <mxGeometry y="52" width="280" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-75" value="+ multipleTimes:boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-71">
+          <mxGeometry y="90" width="280" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-76" value="BuyAndGetCoupon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="-320" width="430" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-77" value="Map&lt;List&lt;MenuItem&gt;,List&lt;MenuItem&gt;&gt; lists" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-76">
+          <mxGeometry y="26" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-80" value="int numberOfReturnOffers: &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-76">
+          <mxGeometry y="52" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-78" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-76">
+          <mxGeometry y="78" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-81" value="int discount&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-76">
+          <mxGeometry y="86" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-82" value="int fixedAmount &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-76">
+          <mxGeometry y="112" width="430" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
