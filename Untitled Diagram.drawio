@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T13:13:06.928Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Wlm7QFCNJ7ylUecIZga_" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-08T13:24:06.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="b3QXmBRNeT7-PRG3PikM" version="15.4.3" type="github">
   <diagram id="kLIZPY2Z_ZGTEdxILeMI" name="Page-1">
     <mxGraphModel dx="1544" dy="1460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,10 +25,10 @@
         <mxCell id="prTzPAkD1qdlaG6kKBDe-16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;FixedAmountFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;createCoupon(List&amp;lt;Any&amp;gt;):FixedAmountCoupon&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="-540" y="-525" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="prTzPAkD1qdlaG6kKBDe-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BuyAndGetFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;createCoupon(List&amp;lt;Any&amp;gt;):buyAndGetCoupon&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+        <mxCell id="prTzPAkD1qdlaG6kKBDe-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BuyAndGetFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;b&gt;createCoupon(List&amp;lt;Any&amp;gt;):buyAndGetCoupon&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="-270" y="-520" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H8ev0atWPXlf6B0PMMAp-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;PropertionalDiscountFactory&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;createCoupon(List&amp;lt;Any&amp;gt;):PropertionalCoupon&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;br&gt;PropertionalDiscountFactory&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;createCoupon(List&amp;lt;Any&amp;gt;):PropertionalCoupon&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="-520" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="H8ev0atWPXlf6B0PMMAp-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;AccumulativeDiscountFactory&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;createCoupon(List&amp;lt;Any&amp;gt;):AccumulativeCoupon&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
@@ -97,8 +97,20 @@
         <mxCell id="H8ev0atWPXlf6B0PMMAp-55" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=18;" connectable="0" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-53">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H8ev0atWPXlf6B0PMMAp-56" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CartDependentCoupon&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ requirement:CartRequirement&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ abstract&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="-660" width="190" height="140" as="geometry" />
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-56" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CartDependentCoupon&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ requirement:CartRequirement&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ abstract verifyCart(Order):boolean&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="-580" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-57" value="PercentageCoupon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="639" y="-320" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-58" value="+ percentage:int&#xa;+ List&lt;MenuItem&gt; eligibleItems" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-57">
+          <mxGeometry y="26" width="270" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-57">
+          <mxGeometry y="90" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="H8ev0atWPXlf6B0PMMAp-60" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="H8ev0atWPXlf6B0PMMAp-57">
+          <mxGeometry y="98" width="270" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
