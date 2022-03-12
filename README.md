@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @ayhem18 a 20 year-old first-year student at Innopolis university.
-- I am interested in software engineering
-- 🌱 I’m currently learning ... Java / C++ 
+- I am interested in software engineering and DataScience
+- 🌱 I’m currently learning ... Java / Python / Databases 
 Contact me on :
-bouabidayhem@gmail.com
+a.bouabid@innopolis.university
 ayhem bouabid in facebook 
 @TheUltimateSurvivor on telegram.
 
