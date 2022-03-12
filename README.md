@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @ayhem18 a 201 year-old second-year student at Innopolis university.
+- 👋 Hi, I’m @ayhem18 a 21 year-old second-year student at Innopolis university.
 - I am interested in software engineering and DataScience
 - 🌱 I’m currently learning ... Java / Python / Databases 
 Contact me on :
